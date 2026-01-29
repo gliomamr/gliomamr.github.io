@@ -53,4 +53,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           <div class="ml-2 ltr:block rtl:hidden text-neutral-500">&rarr;</div>
           <div class="mr-2 ltr:hidden rtl:block text-neutral-500">&larr;</div>
         </a>
-      </li>`}).join(""),first=output.firstChild.firstElementChild,last=output.lastChild.firstElementChild):output.innerHTML=""}
+      </li>`}).join(""),first=output.firstChild.firstElementChild,last=output.lastChild.firstElementChild):output.innerHTML=""}function close_menu(){document.getElementById("menu-controller").checked=!1}
