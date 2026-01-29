@@ -3,19 +3,18 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Congo"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "GliMR"
+copyright = "GliMR"
 
 [params]
   dateFormat = "2 January 2006"
-
-  # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  # mainSections = ["news"]
+  description = "Main website of the GliMR working group of the ESMRMB"
 
 [params.author]
-  # name = "Your name here"
+  name = "GliMR"
   # image = "img/author.jpg"
-  # headline = "I'm only human"
+  headline = "Glioma Research using Magnetic Resonance Imaging"
   # bio = "A little bit about you"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
