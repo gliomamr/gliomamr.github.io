@@ -1,5 +1,5 @@
 ---
-title: Peopls
+title: People
 layout: list
 ---
 

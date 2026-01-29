@@ -1,3 +1,1 @@
-<img style="margin:auto" src="_img/logo.png"
-     alt="GliMR logo"
-/>
+<img style="margin:auto" src="_img/logo.png" alt="GliMR logo" />
