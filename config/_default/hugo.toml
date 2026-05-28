@@ -4,7 +4,7 @@
 
 theme = "congo"
 
-baseURL = "https://gliomamr.github.io/"
+baseURL = "https://glimr.esmrmb.org/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
