@@ -1,6 +1,6 @@
 ---
-banner: "/Images/banners/tf1.png"
+banner: "/Images/banners/advancedmri.png"
 ---
 <br>
-TF1 blablabla
+More information about task force advanced MRI will follow soon!
 <br>
