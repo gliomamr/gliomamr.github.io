@@ -1,1 +1,5 @@
-<img style="margin:auto" src="_img/logo.png" alt="GliMR logo" />
+---
+title: ""
+---
+<br>
+More information about GliMR will follow soon

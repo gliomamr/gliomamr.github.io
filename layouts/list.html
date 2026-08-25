@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<style>
+
+.page-banner {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.page-banner img {
+    width: 100%;
+}
+
+</style>
+
+<header>
+
+  {{ with .Params.banner }}
+  <div class="page-banner">
+  <img src="{{ . }}"
+        style="
+        width: 100vw;
+    height: 30vh;
+    min-height: 150px;
+    margin-top: -1rem;
+        object-fit: cover;
+        object-position: center;
+        margin-left: calc(50% - 50vw);"
+  >
+  </div>
+  {{ end }}
+
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+    {{ .Title }}
+  </h1>
+
+</header>
+
+<section class="prose flex max-w-full flex-col dark:prose-invert">
+  <div style="
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;"
+  >
+    {{ .Content | emojify }}
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<div class="hero-carousel">
+
+    <img id="slide1"
+         src="/images/hero/group.png"
+         class="hero-image">
+
+    <img id="slide2"
+         src="/images/hero/main.png"
+         class="hero-image">
+
+    </div>
+
+</div>
+
+<style>
+
+.hero-carousel {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 30vh;
+    min-height: 150px;
+    margin-top: -1rem;
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    opacity: 0;
+
+    transition: opacity 1.5s ease;
+}
+
+.hero-image.active {
+    opacity: 1;
+}
+
+
+
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const slides = document.querySelectorAll(".hero-image");
+
+    let current = 0;
+
+    setInterval(() => {
+
+        slides[current].classList.remove("active");
+
+        current = (current + 1) % slides.length;
+
+        slides[current].classList.add("active");
+
+    }, 6000);
+
+});
+
+</script>
+
+</script>
+
+<div class="homepage-content">
+    {{ .Content }}
+</div>
+
+{{ end }}
