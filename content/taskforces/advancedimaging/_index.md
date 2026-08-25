@@ -2,5 +2,5 @@
 banner: "/Images/banners/advancedmri.png"
 ---
 <br>
-More information about task force advanced MRI will follow soon!
+More information about task force artifical intelligence will follow soon!
 <br>
