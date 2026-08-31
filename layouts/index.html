@@ -45,6 +45,83 @@
     opacity: 1;
 }
 
+.bluesky-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bluesky-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    height: 550px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bluesky-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+.bluesky-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    /* your existing styling */
+    padding: 8px 14px;
+    border: 1px solid #da3a22;
+    color: #da3a22;
+    background: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.bluesky-button:hover {
+    background: #d85c48;
+    color: white;
+}
+.bluesky-footer {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 25px;    
+}
+.bluesky-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-bluesky h2 {
+    color: #1b1c15;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 1rem;
+}
+
+.latest-bluesky h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #da3a22;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+@media (max-width: 900px) {
+    .bluesky-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 </style>
@@ -76,5 +153,126 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="homepage-content">
     {{ .Content }}
 </div>
+
+<section class="latest-bluesky">
+    <h2>Latest News from GliMR</h2>
+<div id="bluesky-feed" class="bluesky-grid">
+</div>
+
+    <p>
+<div class="bluesky-footer">
+ <a class="bluesky-button"
+   href="https://bsky.app/profile/glimr-eu.bsky.social"
+   target="_blank">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="18"
+         height="18"
+         viewBox="0 0 600 530"
+         fill="currentColor">
+        <path d="M135.72 44.03c67.31 50.58 139.72 153.15 164.28 203.92
+        24.56-50.77 96.97-153.34 164.28-203.92
+        48.6-36.52 127.25-64.74 127.25 25.1
+        0 17.95-10.29 150.8-16.32 172.37
+        -20.98 75.02-97.45 94.13-165.49 82.54
+        118.95 20.26 149.22 87.34 83.87 154.42
+        -124.15 127.46-178.42-31.98-192.33-72.83
+        -2.55-7.49-3.74-11.0-4.99-11.0
+        -1.25 0-2.44 3.51-4.99 11.0
+        -13.91 40.85-68.18 200.29-192.33 72.83
+        -65.35-67.08-35.08-134.16 83.87-154.42
+        -68.04 11.59-144.51-7.52-165.49-82.54
+        -6.03-21.57-16.32-154.42-16.32-172.37
+        0-89.84 78.65-61.62 127.25-25.1z"/>
+    </svg>
+
+    <span>Follow GliMR on Bluesky</span>
+
+</a>
+</div>
+    </p>
+</section>
+
+<script>
+
+fetch('https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=glimr-eu.bsky.social&limit=20')
+  .then(response => response.json())
+  .then(data => {
+
+    const container = document.getElementById('bluesky-feed');
+
+    container.innerHTML = '';
+
+    let count = 0;
+
+    data.feed.forEach(item => {
+
+        if (count >= 3) {
+            return;
+        }
+
+        const fullText = item.post.record.text;
+
+        if (/\b(?!1\/)\d+\/\d+\b/.test(fullText)) {
+            return;
+        }
+
+        count++;
+
+        const text = fullText
+            .replace(/^\s*[^A-Za-z0-9]*1\/\d+\s*/, '')
+            .substring(0,180) + '..*';
+            
+            let imageHtml = '';
+                if (
+                    item.post.embed &&
+                    item.post.embed.$type === 'app.bsky.embed.images#view'
+                    ) {
+                imageHtml = `
+                        <img
+                        src="${item.post.embed.images[0].thumb}"
+                        style="
+                            width:100%;
+                            height:350px;
+                            object-fit:contain;
+                            border-radius:8px;
+                            margin-bottom:12px;
+                        "
+                        >
+                        `;
+                    }
+
+      const date = new Date(item.post.record.createdAt)
+        .toLocaleDateString('en-GB', {
+          day: 'numeric',
+          month: 'short',
+          year: 'numeric'
+        });
+
+      const card = document.createElement('a');
+        card.className = 'bluesky-card';
+        card.href = `https://bsky.app/profile/${item.post.author.handle}/post/${item.post.uri.split('/').pop()}`;
+        card.target = '_blank';
+        card.style.textDecoration = 'none';
+        card.style.color = 'inherit';
+        card.innerHTML = `
+             ${imageHtml}
+              <p>${text}</p>
+            <p style="
+            margin-top:auto;
+            font-size:0.85rem;
+            color:#d85c48;
+                ">
+                    ${date}
+                </p>
+                        `;
+
+      container.appendChild(card);
+
+    });
+
+  });
+
+</script>
 
 {{ end }}
