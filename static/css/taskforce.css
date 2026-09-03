@@ -1,0 +1,130 @@
+.leader-card {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.2s ease;
+    max-width: 370px;
+    margin: 20;
+}
+
+.leader-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.leader-card img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.leader-card h3 {
+    margin: 15px 0 8px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.leader-role {
+    color: #646464;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.leader-affiliation {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #646464;
+}
+
+
+.section-title {
+    color: #1b1c15;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #da3a22;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    /* your existing styling */
+    padding: 8px 14px;
+    border: 1px solid #da3a22;
+    color: #da3a22;
+    background: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.contact-button:hover {
+    background: #d85c48;
+    color: white;
+}
+
+.goal-links {
+    margin-top: 8px;
+    display: flex;
+    gap: 12px;
+}
+
+.goal-links img {
+    height: 24px;
+    width: 24px;
+    transition: all 0.2s ease;
+}
+
+.goal-links img:hover {
+    transform: translateY(-2px);
+}
+
+.goal-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 1px;
+    margin-left: 8px;
+    position: relative;
+    top: 35px;
+}
+
+
+.goal-icons a {
+    display: inline;
+}
+
+.goal-icons img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.leader-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 2px;
+    justify-content: center;
+    margin-top: 30px;
+}

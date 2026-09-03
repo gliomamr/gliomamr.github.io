@@ -161,4 +161,8 @@
     </div>
   </div>
 
+  {{ if templates.Exists "_partials/extend-footer.html" }}
+  {{ partial "extend-footer.html" . }}
+{{ end }}
+
 </footer>
