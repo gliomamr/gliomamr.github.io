@@ -17,25 +17,25 @@ helps connect researchers, clinicians and stakeholders across Europe.
 
 <h2 class="section-title">Goals</h2>
 
-<ul>
-<li> Share relevant content on social media about the activities of GliMR.
+<ul class="goals-list">
+<li>Share relevant content on social media about the activities of GliMR.
     <span class="goal-icons">
         <a href="https://www.instagram.com/glimr_esmrmb/" target="_blank">
-         <img src="/Images/logos/instagram-logo.png">
+        <img src="/Images/logos/instagram-logo.png"> 
         </a>
         <a href="https://www.linkedin.com/company/glimr-esmrmb/" target="_blank">
         <img src="/Images/logos/linkedin-logo.png">
         </a>
         <a href="https://bsky.app/profile/esmrmb.bsky.social" target="_blank">
-        <img src="/Images/logos/bluesky-logo.png">
+        <img src="/Images/logos/bluesky-logo.png" a>
         </a>
     </span>
 </li>
 <li>Write a quarterly newsletter  with the latest news from the GliMR community.
    <span class="goal-icons">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHGNkLZM74KGkncOEuyyunSrWrM4hd27-1uBPptc8p9JLDvg/viewform" target="_blank">
-         <img src="/Images/logos/newsletter-logo.png">
-        </a>
+         <img src="/Images/logos/newsletter-logo.png"> 
+         </a>
     </span>
 </li>
 <li>Produce, edit and publish the recordings of GliMR webinars on our Youtube channel.

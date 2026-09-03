@@ -1,3 +1,12 @@
+.leader-grid {
+    display: flex;
+    grid-template-columns: repeat(2, 400px);
+    gap: 2px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
 .leader-card {
     background: #fafafa;
     border: 1px solid #e5e5e5;
@@ -6,7 +15,8 @@
     text-align: center;
     transition: all 0.2s ease;
     max-width: 370px;
-    margin: 20;
+    width: 100%;
+    margin: 20px;
 }
 
 .leader-card:hover {
@@ -64,9 +74,10 @@
 }
 
 .contact-button {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     gap: 8px;
+    text-align: center;
 
     /* your existing styling */
     padding: 8px 14px;
@@ -84,48 +95,36 @@
     color: white;
 }
 
-.goal-links {
-    margin-top: 8px;
-    display: flex;
-    gap: 12px;
-}
-
-.goal-links img {
-    height: 24px;
-    width: 24px;
-    transition: all 0.2s ease;
-}
-
-.goal-links img:hover {
-    transform: translateY(-2px);
+.goals-list li {
+    display: list-item !important;
+    margin-bottom: 12px !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
 }
 
 .goal-icons {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    height: 1px;
     margin-left: 8px;
-    position: relative;
-    top: 35px;
 }
 
-
 .goal-icons a {
-    display: inline;
+    display: inline-block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .goal-icons img {
-    height: 20px;
-    width: auto;
-    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 0 !important;
 }
 
-.leader-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 400px);
-    gap: 2px;
-    justify-content: center;
-    margin-top: 30px;
-}
+
 
