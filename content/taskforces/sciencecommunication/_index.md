@@ -53,9 +53,9 @@ helps connect researchers, clinicians and stakeholders across Europe.
         <img src="./AnaMatoso.png"
             alt="Ana Matoso">
                 <h3>Ana Matoso</h3>
-        <div class="leader-affiliation">
-        Instituto Superior Técnico • Lisbon, Portugal
-        </div>
+            <div class="leader-affiliation">
+            Instituto Superior Técnico • Lisbon, Portugal
+            </div>
     </div>
     <div class="leader-card">
         <img src="./CatarinaPassarinho.jpg"
@@ -75,7 +75,7 @@ Interested in contributing to the Science Communication Task Force or sharing id
 
 <a
     class="contact-button obfuscated-email"
-    data-user="glimr.cost.wg5"
-    data-domain="gmail.com">
+    data-user1="glimr.cost.wg5"
+    data-domain1="gmail.com">
     ✉ Get in touch
 </a>

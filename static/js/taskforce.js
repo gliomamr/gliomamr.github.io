@@ -1,8 +1,21 @@
-document.querySelectorAll(".obfuscated-email").forEach(function (button) {
+document.addEventListener("DOMContentLoaded", function () {
 
-    const user = button.dataset.user;
-    const domain = button.dataset.domain;
+    document.querySelectorAll(".obfuscated-email").forEach(function (button) {
 
-    button.href = "mailto:" + user + "@" + domain;
+        const email1 =
+            button.dataset.user1 + "@" + button.dataset.domain1;
+
+        let href = "mailto:" + email1;
+
+        if (button.dataset.user2 && button.dataset.domain2) {
+            const email2 =
+                button.dataset.user2 + "@" + button.dataset.domain2;
+
+            href += "," + email2;
+        }
+
+        button.href = href;
+
+    });
 
 });
