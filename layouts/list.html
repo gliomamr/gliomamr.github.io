@@ -1,34 +1,14 @@
 {{ define "main" }}
 
-<style>
-
-.page-banner {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-}
-
-.page-banner img {
-    width: 100%;
-}
-
-</style>
-
 <header>
 
   {{ with .Params.banner }}
-  <div class="page-banner">
-  <img src="{{ . }}"
-        style="
-        width: 100vw;
-    height: 30vh;
-    min-height: 150px;
-    margin-top: -1rem;
-        object-fit: cover;
-        object-position: center;
-        margin-left: calc(50% - 50vw);"
-  >
-  </div>
+<div class="page-banner">
+  <img src="{{ . }}">
+</div>
   {{ end }}
+
+  </div>
 
   <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
     {{ .Title }}

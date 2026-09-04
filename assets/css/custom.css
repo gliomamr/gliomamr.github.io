@@ -24,3 +24,30 @@
         height: 22px !important;
     }
 }
+.page-banner {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.page-banner img {
+    width: 100%;
+    height: 30vh;
+    min-height: 180px;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -1rem;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .page-banner img {
+        height: auto;
+        max-height: none;
+        min-height: 0;
+        object-fit: contain;
+    }
+
+}
