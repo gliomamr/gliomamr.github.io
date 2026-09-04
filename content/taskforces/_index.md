@@ -4,372 +4,212 @@ banner: "/Images/banners/taskforces.png"
 <br>
 The GliMR Task Forces are collaborative working groups focused on advancing glioma and brain tumour MRI through research, harmonisation, education and clinical translation.
 
-<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:25px;">
+<div class="tf-grid">
 
 <!-- TF1 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf1.png"
-    alt="Task Force 1"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 1"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
-Advanced MRI
+<h3 class="tf-card-title">
+Advanced MRI 
+</h3>
 </div>
 
-<p> Advancing the development, validation and clinical translation of innovative MRI techniques and imaging biomarkers for glioma research and patient care. </p>
+<p class="tf-card-description"> Advancing the development, validation and clinical translation of innovative MRI techniques and imaging biomarkers for glioma research and patient care. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/advancedimaging/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/advancedimaging/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF2 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf2.png"
-    alt="Task Force 2"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 2"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
-Preclinical MRI
+<h3 class="tf-card-title">
+Translational and Preclinical MRI
+</h3>
 </div>
 
-<p> Bridging preclinical and clinical MRI research by harmonising imaging protocols and translating experimental findings into clinical applications. </p>
+<p class="tf-card-description"> Bridging preclinical and clinical MRI research by harmonising imaging protocols and translating experimental findings into clinical applications. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/preclinical/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/preclinical/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF3 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf3.png"
-    alt="Task Force 3"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 3"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
+<h3 class="tf-card-title">
 Artificial Intelligence
+</h3>
 </div>
 
-<p> Developing, validating and implementing trustworthy AI solutions for MRI-based glioma analysis, treatment monitoring and clinical decision support. </p>
+<p class="tf-card-description"> Developing, validating and implementing trustworthy AI solutions for MRI-based glioma analysis, treatment monitoring and clinical decision support. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/artificialintelligence/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/artificalintelligence/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF4 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf4.png"
-    alt="Task Force 4"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 4"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
-Data Sharing
+<h3 class="tf-card-title">
+Data Sharing and Open Science
+</h3>
 </div>
 
-<p> Promoting open science by improving the discoverability, accessibility and reuse of brain tumour imaging datasets across the research community. </p>
+<p class="tf-card-description"> Promoting open science by improving the discoverability, accessibility and reuse of brain tumour imaging datasets across the research community. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/datasharing/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/datasharing/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF5 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf5.png"
-    alt="Task Force 5"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 5"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
+<h3 class="tf-card-title">
 Clinical Implementation
+</h3>
 </div>
 
-<p> Facilitating the adoption of advanced MRI techniques in routine clinical practice through guidelines, consensus building and evidence-based recommendations. </p>
+<p class="tf-card-description"> Facilitating the adoption of advanced MRI techniques in routine clinical practice through guidelines, consensus building and evidence-based recommendations. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/clinicalimplementation/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/clinicalimplementation/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF6 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf6.png"
-    alt="Task Force 6"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 6"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
+<h3 class="tf-card-title">
 Networking
+</h3>
 </div>
 
-<p> Connecting researchers, clinicians, industry partners and international initiatives to strengthen collaboration, education and funding opportunities. </p>
+<p class="tf-card-description"> Connecting researchers, clinicians, industry partners and international initiatives to strengthen collaboration, education and funding opportunities.</p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/networking/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/networking/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF7 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf7.png"
-    alt="Task Force 7"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 7"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
+<h3 class="tf-card-title">
 Education
+</h3>
 </div>
 
-<p> Providing educational resources, training opportunities and mentorship to support excellence in glioma MRI research and clinical practice. </p>
+<p class="tf-card-description"> Providing educational resources, training opportunities and mentorship to support excellence in glioma MRI research and clinical practice. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/education/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/education/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
 
 <!-- TF8 -->
 
-<div style="
-    border:1px solid #646464; 
-    padding:20px; 
-    border-radius:12px;
-    ">
+<div class="tf-card">
 
-<div style="
-    display:flex; 
-    align-items: center;
-    font-size:20px;
-    gap:25px;
-    margin-top:-60px;
-    margin-bottom:-60px;
-    ">
+<div class="tf-card-header">
 
 <img src="/Images/forces/tf8.png"
-    alt="Task Force 8"
-    style="
-        width:60px;
-        height:60px;"
-        >
+     alt="Task Force 8"
+     class="tf-card-icon">
 
-<h3 style="
-margin:0;"
->
+<h3 class="tf-card-title">
 Science Communication
+</h3>
 </div>
 
-<p> Communicating glioma MRI research to scientific, clinical and public audiences through accessible, engaging and impactful outreach activities. </p>
+<p class="tf-card-description">Communicating glioma MRI research to scientific, clinical and public audiences through accessible, engaging and impactful outreach activities. </p>
 
-<p style="
-color:#d7191c;
-font-weight:bold;
-margin-bottom:0;
-text-align:right;
-padding-right:15px;
-">
-<a href="/taskforces/sciencecommunication/"
+<p class="tf-card-footer">
+    <a class="tf-button"
+       href="/taskforces/sciencecommunication/"
 >
-Learn more →
+Learn more
 </a>
 </p>
 </div>
