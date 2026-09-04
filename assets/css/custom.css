@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+
+    .footer-wrapper {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px;
+    }
+
+    .footer-middle {
+        width: auto !important;
+        height: auto !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-middle img {
+        height: 22px !important;
+    }
+}
