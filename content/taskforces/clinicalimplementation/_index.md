@@ -19,19 +19,19 @@ The Clinical Implementation Task Force promotes the translation of advanced MRI 
 
 <div class="leader-grid">
     <div class="leader-card">
-        <img src="./JanPetr.png"
-            alt="Jan Petr">
-                <h3>Jan Petr</h3>
+        <img src="./ThomasBooth.jpg"
+            alt="Thomas Booth">
+                <h3>Thomas Booth</h3>
             <div class="leader-affiliation">
-            Helmholtz-Zentrum Dresden-Rossendorf • Dresden, Germany
+            King's College Hospital & King's College London • London, United Kingdom
             </div>
     </div>
     <div class="leader-card">
-        <img src="./NicoSollmann.png"
-            alt="Nico Sollmann">
-                <h3>Nico Sollmann</h3>
+        <img src="./JeroendeBresser.jpg"
+            alt="Jeroen De Bresser">
+                <h3>Jeroen De Bresser</h3>
         <div class="leader-affiliation">
-        Technische Universität München • München, Germany
+        Leiden University Medical Center • Leiden, the Netherlands
         </div>
     </div>
 </div>
