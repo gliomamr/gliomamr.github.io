@@ -43,9 +43,9 @@ Interested in clinical implementation, guideline development, consensus initiati
 
 <a
     class="contact-button obfuscated-email"
-    data-user1="j.petr"
-    data-domain1="hzdr.de"
-    data-user2="nico.sollmann"
-    data-domain2="tum.de">
+    data-user1="thomas.booth"
+    data-domain1="kcl.ac.uk"
+    data-user2="j.h.j.m.de_bresser"
+    data-domain2="lumc.nl">
     ✉ Get in touch
 </a>
