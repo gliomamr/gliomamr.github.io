@@ -4,17 +4,22 @@ banner: "/Images/banners/advancedmri.png"
 ---
 
 <p>
-The Advanced MRI Task Force promotes the development, evaluation and application of cutting-edge MRI techniques for the study of glioma and brain tumours. By bringing together researchers with expertise in advanced imaging methods, the task force supports innovation in acquisition, analysis and quantitative biomarker development.
+The Advanced MRI Task Force promotes the development and application of MRI methods beyond current clinical standard imaging for glioma and brain tumour research. By bringing together researchers with expertise in advanced imaging techniques, the task force supports innovation in acquisition, analysis and quantitative biomarker development.
 </p>
 
 <p>
-Through collaboration, education and methodological exchange, the task force aims to accelerate the translation of novel MRI biomarkers into clinical practice. Beyond scientific excellence, task force members also share an appreciation for discovering outstanding gelato around the world.
+Through networking, awareness initiatives, standardisation efforts and the development of clinical guidelines, the task force works to accelerate the adoption of advanced MRI methods in both research and clinical practice.
 </p>
 
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> to be added
+<li> Develop a work plan together with the AI taskforce for networks, reviews and studies on treatment monitoring, tumour microenvironments, and molecular biomarkers. </li>
+<li>Guideline development for clinical practice for advanced MRI biomarkers. </li>
+<li>Networking for multicentric studies, cross-vendor harmonisation.</li>
+<li>Organization of teaching courses together with the Education task force.</li>
+<li>Liasing with the networking Task Force to foster collaboration in advanced imaging topics.</li>
+<li>Dissemination of Task Force output.</li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
