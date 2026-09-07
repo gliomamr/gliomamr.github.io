@@ -12,7 +12,8 @@ The Clinical Implementation Task Force promotes the translation of advanced MRI 
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> To be added</li>
+<li> To develop a position statement on AI-assisted contrast reduction in neuro-oncology.
+</li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
