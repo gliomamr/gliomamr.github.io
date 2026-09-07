@@ -77,7 +77,7 @@ Artificial Intelligence
 
 <p class="tf-card-footer">
     <a class="tf-button"
-       href="/taskforces/artificalintelligence/"
+       href="/taskforces/artificialintelligence/"
 >
 Learn more
 </a>

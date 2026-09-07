@@ -13,8 +13,13 @@ Through benchmarking initiatives, multi-site collaboration, data standardisation
 
 <h2 class="section-title">Goals</h2>
 
-<ul>
-<li> To be added </li>
+<ul><li> Developing Advanced AI Algorithms: create and refine AI models for glioma characterisation, diagnosis and treatment monitoring.</li>
+<li> Facilitating Multi-Site Data Integration: integrate AI models into multi-site data platforms, ensuring standardised data structures and compliance with GDPR and BIDS.</li>
+<li> Benchmarking and Validation: develop a framework for benchmarking AI models against diverse datasets to confirm reliability and accuracy in clinical settings.</li>
+<li> Promoting Clinical Translation: implement AI-driven MRI analysis in clinical settings, enhancing diagnostic accuracy and patient monitoring.</li>
+<li> Advancing Explainability and Trustworthiness: focus on explainable AI methods that make MRI-based AI decisions interpretable for clinicians.</li>
+<li> Engaging Stakeholders: involve stakeholders in the development and application of AI models, addressing ethical considerations and promoting acceptance.</li>
+<li> Providing Training and Education: offer training programmes to educate researchers and clinicians on AI applications in MRI.</li>
 </ul>
 
 <h2 class="section-title">Leader</h2>
@@ -28,6 +33,14 @@ Through benchmarking initiatives, multi-site collaboration, data standardisation
             Universitat Politècnica de València • Valencia, Spain
             </div>
     </div>
+     <div class="leader-card">
+        <img src="./SarithaUnnikrishnan.jpg"
+            alt="Saritha Unnikrishnan">
+                <h3>Saritha Unnikrishnan</h3>
+            <div class="leader-affiliation">
+            Atlantic Technological University (ATU) • Sligo, Ireland
+            </div>
+    </div>
 </div>
 
 <h2 class="section-title">Contact</h2>
@@ -38,7 +51,9 @@ Interested in artificial intelligence, machine learning, data analysis or collab
 
 <a
     class="contact-button obfuscated-email"
-    data-user1="elfusgar"
-    data-domain1="upv.es">
+    data-user1="gilelfusgar"
+    data-domain1="upv.es"
+    data-user2="saritha.unnikrishna"
+    data-domain2="atu.ie">
     ✉ Get in touch
 </a>
