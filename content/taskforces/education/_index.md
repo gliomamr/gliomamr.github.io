@@ -12,7 +12,11 @@ The Education Task Force promotes learning and capacity building within the GliM
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> To be added</li>
+<li> Promote education and training in advanced imaging methods for glioma diagnosis, treatment planning, and monitoring.</li>
+<li>Facilitate knowledge exchange across disciplines, including medical engineering, data science, neuroradiology, neuro-oncology, neurosurgery, and patient advocacy.</li>
+<li>Support interdisciplinary collaboration and a shared understanding of emerging imaging technologies and their clinical applications.</li>
+<li>Bridge the gap between methodological developments and their implementation in clinical practice.</li>
+<li>Provide educational activities and resources that support researchers, clinicians, and trainees across the glioma imaging community.</li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
