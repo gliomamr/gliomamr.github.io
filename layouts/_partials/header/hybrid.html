@@ -90,12 +90,13 @@
                     {{ $.Scratch.Add "localeCount" 1 }}
                     {{ partial "translations.html" . }}
                   {{ else }}
-                    <a
+                      <a
                       href="{{ .URL }}"
                       title="{{ .Title }}"
                       onclick="close_menu()"
                       {{ with .Params.rel }}rel="{{ . }}"{{ end }}
                       {{ with .Params.target }}target="{{ . }}"{{ end }}
+                      >
                       >{{ with .Params.icon }}
                         <span
                           class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
@@ -107,8 +108,7 @@
                           class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                           >{{ .Name | markdownify | emojify }}</span
                         >
-                      {{ end }}</a
-                    >
+                      {{ end }}</a>
                   {{ end }}
                 </li>
               {{ end }}
@@ -134,7 +134,7 @@
             {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not hugo.IsMultilingual)) }}
               {{ continue }}
             {{ end }}
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
+            <li class="group group/nav mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               {{ if eq .Params.action "search" }}
                 {{ $.Scratch.Add "searchCount" 1 }}
                 {{ if $.Site.Params.enableSearch | default false }}
@@ -196,12 +196,13 @@
                 {{ $.Scratch.Add "localeCount" 1 }}
                 {{ partial "translations.html" . }}
               {{ else }}
-                <a
+                  <a
                   href="{{ .URL }}"
                   title="{{ .Title }}"
                   {{ with .Params.rel }}rel="{{ . }}"{{ end }}
                   {{ with .Params.target }}target="{{ . }}"{{ end }}
-                  >{{ with .Params.icon }}
+                  >
+                  {{ with .Params.icon }}
                     <span
                       class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
                     >
@@ -214,6 +215,14 @@
                     >
                   {{ end }}</a
                 >
+                {{ if .Children }}
+                  <div class="tf-submenu">
+                    {{ range $i, $child := .Children }}
+                      {{ if gt $i 0 }}<span class="tf-submenu-separator">|</span>{{ end }}
+                      <a href="{{ $child.URL }}">{{ $child.Name | markdownify | emojify }}</a>
+                    {{ end }}
+                  </div>
+                {{ end }}
               {{ end }}
             </li>
           {{ end }}
@@ -233,4 +242,5 @@
       </ul>
     {{ end }}
   </nav>
+
 </header>

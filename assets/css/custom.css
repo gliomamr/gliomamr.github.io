@@ -212,3 +212,55 @@
     }
 
 }
+
+/* ========================================
+   TASK FORCE SUBMENU
+======================================== */
+
+.tf-submenu {
+    display: none;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.tf-submenu a {
+    color: #da3a22;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tf-submenu a:hover {
+    text-decoration: underline;
+}
+
+.tf-submenu-separator {color: #da3a22;
+    opacity: 0.5;
+    margin: 0 8px;
+}
+
+.group\/nav {
+    position: relative;
+}
+
+.tf-submenu {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 700px;   /* adjust */
+    width: max-content;
+    white-space: normal;
+    text-align: center;
+    z-index: 40;
+}
+
+.group\/nav:hover .tf-submenu,
+.group\/nav:focus-within .tf-submenu {
+    display: block;
+}
+.group\/nav {
+    position: relative;
+    padding-bottom: 20px;
+}

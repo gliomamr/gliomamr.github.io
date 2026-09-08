@@ -4,24 +4,94 @@
   weight = 10
 
 [[main]]
-  name = "Who We Are & Our Mission"
+  name = "Mission"
   pageRef = "about/mission"
   parent = "About"
+  weight = 10
+
 
 [[main]]
   name = "Leadership"
   pageRef = "about/leadership"
   parent = "About"
+  weight = 20
+
+[[main]]
+  name = "History"
+  pageRef = "about/history"
+  parent = "About"
+  weight = 30
 
 [[main]]
   name = "ESMRMB Working Group"
-  pageRef = "about/esmrmb"
+  pageRef = "about/ESMRMB"
   parent = "About"
+  weight = 40
+
+[[main]]
+  name = "Partners"
+  pageRef = "about/partners"
+  parent = "About"
+  weight = 50
+
+[[main]]
+  name = "Bylaws"
+  pageRef = "about/bylaws"
+  parent = "About"
+    weight = 60
 
 [[main]]
   name = "Task Forces"
   pageRef = "taskforces"
   weight = 20
+
+[[main]]
+  name = "Advanced MRI"
+  pageRef = "taskforces/advancedimaging"
+  parent = "Task Forces"
+  weight = 10
+
+[[main]]
+  name = "Preclinical MRI"
+  pageRef = "taskforces/preclinical"
+  parent = "Task Forces"
+  weight = 20
+
+[[main]]
+  name = "Artificial Intelligence"
+  pageRef = "taskforces/artificialintelligence"
+  parent = "Task Forces"
+  weight = 30
+
+[[main]]
+  name = "Data Sharing"
+  pageRef = "taskforces/datasharing"
+  parent = "Task Forces"
+  weight = 40
+
+[[main]]
+  name = "Clinical Implementation"
+  pageRef = "taskforces/clinicalimplementation"
+  parent = "Task Forces"
+  weight = 50
+
+[[main]]
+  name = "Networking"
+  pageRef = "taskforces/networking"
+  parent = "Task Forces"
+  weight = 60
+
+[[main]]
+  name = "Education"
+  pageRef = "taskforces/education"
+  parent = "Task Forces"
+  weight = 70
+
+[[main]]
+  name = "Science Communication"
+  pageRef = "taskforces/sciencecommunication"
+  parent = "Task Forces"
+  weight = 80
 
 [[main]]
   name = "Resources"
