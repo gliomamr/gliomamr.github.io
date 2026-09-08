@@ -1,5 +1,5 @@
 ---
-banner: "/Images/banners/bylaws.png"
+banner: "/Images/banners/leadership.png"
 
 ---
 More information will follow soon

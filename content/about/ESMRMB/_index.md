@@ -1,5 +1,5 @@
 ---
-title: "ESMRMB"
----
+banner: "/Images/banners/ESMRMB.png"
 
-Information about ESMRMB.
+---
+More information will follow soon
