@@ -35,7 +35,7 @@ The Education Task Force promotes learning and capacity building within the GliM
             alt="Yaara Erez">
                 <h3>Yaara Erez</h3>
         <div class="leader-affiliation">
-            Faculty of Engineering Bar-Ilan University • Tel Aviv, Israel
+            Faculty of Engineering Bar-Ilan University • Ramat-Gan, Israel
         </div>
     </div>
 </div>
