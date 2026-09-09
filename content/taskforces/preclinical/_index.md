@@ -12,7 +12,10 @@ The Translational and Preclinical MRI Task Force promotes the development and ap
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> To be added</li>
+<li>Advance translational preclinical brain tumor imaging through dedicated scientific sessions, webinars and community debates across GliMR, ESMRMB and related networks.</li>
+<li>Build a collaborative networking hub connecting preclinical and clinical researchers to share expertise, models, methods and best practices.</li>
+<li>Develop consensus guidelines and validate emerging MRI/MRS techniques in relevant brain tumor models to improve rigor, reproducibility and clinical translation.</li>
+<li>Bridge preclinical and clinical imaging, using evidence from animal studies to inform, refine and streamline clinically relevant MRI protocols.</li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
