@@ -89,26 +89,43 @@
                   {{ else if eq .Params.action "locale" }}
                     {{ $.Scratch.Add "localeCount" 1 }}
                     {{ partial "translations.html" . }}
-                  {{ else }}
+                           {{ else }}
+                    {{ if .Children }}
+                      <input type="checkbox" id="mobile-tf-{{ md5 .URL }}" class="tf-toggle-checkbox" />
+                    {{ end }}
+                    <div class="flex items-center justify-end gap-2">
                       <a
-                      href="{{ .URL }}"
-                      title="{{ .Title }}"
-                      onclick="close_menu()"
-                      {{ with .Params.rel }}rel="{{ . }}"{{ end }}
-                      {{ with .Params.target }}target="{{ . }}"{{ end }}
+                        href="{{ .URL }}"
+                        title="{{ .Title }}"
+                        onclick="close_menu()"
+                        {{ with .Params.rel }}rel="{{ . }}"{{ end }}
+                        {{ with .Params.target }}target="{{ . }}"{{ end }}
+                        >{{ with .Params.icon }}
+                          <span
+                            class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                          >
+                            {{- partial "icon.html" . -}}
+                          </span>
+                        {{- end -}}{{- if .Params.showName | default true -}}
+                          <span
+                            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                            >{{ .Name | markdownify | emojify }}</span
+                          >
+                        {{ end }}</a
                       >
-                      >{{ with .Params.icon }}
-                        <span
-                          class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
-                        >
-                          {{- partial "icon.html" . -}}
-                        </span>
-                      {{- end -}}{{- if .Params.showName | default true -}}
-                        <span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >{{ .Name | markdownify | emojify }}</span
-                        >
-                      {{ end }}</a>
+                      {{ if .Children }}
+                        <label for="mobile-tf-{{ md5 .URL }}" class="cursor-pointer">
+                          <span class="tf-chevron">&#9662;</span>
+                        </label>
+                      {{ end }}
+                    </div>
+                    {{ if .Children }}
+                      <div class="tf-submenu-mobile">
+                        {{ range .Children }}
+                          <a href="{{ .URL }}" onclick="close_menu()">{{ .Name | markdownify | emojify }}</a>
+                        {{ end }}
+                      </div>
+                    {{ end }}
                   {{ end }}
                 </li>
               {{ end }}

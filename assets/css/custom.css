@@ -264,3 +264,45 @@
     position: relative;
     padding-bottom: 20px;
 }
+
+/* ========================================
+   MOBILE SUBMENU TOGGLE
+======================================== */
+
+.tf-toggle-checkbox {
+    display: none;
+}
+
+.tf-submenu-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.tf-toggle-checkbox:checked ~ .tf-submenu-mobile {
+    display: flex;
+}
+
+.tf-submenu-mobile a {
+    color: #da3a22;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 0;
+}
+
+.tf-submenu-mobile a:hover {
+    text-decoration: underline;
+}
+
+.tf-chevron {
+    display: inline-block;
+    color: #da3a22;
+    font-size: 0.75rem;
+    transition: transform 0.2s ease;
+}
+
+.tf-toggle-checkbox:checked ~ div .tf-chevron {
+    transform: rotate(180deg);
+}
