@@ -103,7 +103,7 @@ Data Sharing and Open Science
 
 <p class="tf-card-footer">
     <a class="tf-button"
-       href="/taskforces/datasharing/"
+       href="/taskforces/openscience/"
 >
 Learn more
 </a>

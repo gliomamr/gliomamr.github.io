@@ -64,8 +64,8 @@
   weight = 30
 
 [[main]]
-  name = "Data Sharing"
-  pageRef = "taskforces/datasharing"
+  name = "Open Science"
+  pageRef = "taskforces/openscience"
   parent = "Task Forces"
   weight = 40
 

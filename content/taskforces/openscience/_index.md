@@ -4,14 +4,16 @@ banner: "/Images/banners/datasharing.png"
 ---
 
 <p>
-The Data Sharing and Open Science Task Force promotes the discoverability, accessibility and reuse of imaging data for glioma and brain tumour research. By bringing together researchers with an interest in open science, the task force supports initiatives that improve data sharing, transparency and collaboration across the neuro-oncology imaging community.</p>
+The Data Sharing and Open Science Task Force promotes the discoverability, accessibility and research yield from imaging data for glioma and brain tumour research. By bringing together researchers with an interest in open science, the task force supports initiatives that improve data sharing, transparency and collaboration across the neuro-oncology imaging community.</p>
 
 <p>Through the development of shared resources, data inventories and community-driven standards, the task force aims to facilitate access to existing datasets and encourage the responsible exchange of imaging data to accelerate research and innovation.</p>
 
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> To be added</li>
+<li> To provide a community for open science in brain tumour imaging research, guided by FAIR principles.</li>
+<li> To establish an inventory of publicly available brain tumour imaging datasets worldwide. </li>
+<li>To support brain tumour imaging research networks and collaborations that may benefit from data sharing across European sites </li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
