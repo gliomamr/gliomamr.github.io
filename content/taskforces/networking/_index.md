@@ -11,7 +11,10 @@ The Networking Task Force promotes collaboration between GliMR, international re
 <h2 class="section-title">Goals</h2>
 
 <ul>
-<li> To be added</li>
+<li> Initiate and develop networking and collaboration ties between several partners within and beyond GliMR.</li>
+<li> Provide a collaborative foundation for the imaging community around neuro-oncology questions and issues.</li>
+<li>Bring partners together for networking, joint research, and further collaborative approaches.</li>
+<li>Disseminate educational resources, software tools, best practices, and potential funding opportunities.</li>
 </ul>
 
 <h2 class="section-title">Co-leaders</h2>
@@ -30,7 +33,7 @@ The Networking Task Force promotes collaboration between GliMR, international re
             alt="Nico Sollmann">
                 <h3>Nico Sollmann</h3>
         <div class="leader-affiliation">
-        Technische Universität München • München, Germany
+        University Hospital Ulm • Ulm, Germany
         </div>
     </div>
 </div>
